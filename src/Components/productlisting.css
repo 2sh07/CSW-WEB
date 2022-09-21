@@ -1,0 +1,25 @@
+.ProductButtons{
+    width: 100%;
+    min-width: 130px;
+    background-color: #00b4ff;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: 0px 6px 10px rgb(195, 195, 195);
+  }
+
+.ProductButtons:hover{
+    background-color: #006f9e;
+}
+.ProductButtons a{
+    list-style: none;
+    text-decoration: none;
+    color: white;
+}
+
+.ProductListChild{
+    text-align: left;
+}

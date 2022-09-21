@@ -1,0 +1,39 @@
+.maincontent{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    min-height: 60vh;
+    padding-left: 50px;
+    padding-top: 100px;
+    padding-right: 50px;
+    padding-bottom: 10px;
+    background-color: whitesmoke;
+    font-size: medium;
+    text-align: left;
+    justify-content: flex-start;
+
+}
+
+.sociallinks{
+    transform: scale(2);
+    padding-top: 1em;
+    align-self: center;
+}
+.aboutussociallinks{
+    transform: scale(2);
+    padding-top: 1em;
+    align-self: center;
+}
+
+.sociallinks>div:hover{
+    color: #00b4ff;
+    background-color: #00b4ff;
+}
+
+ion-icon:hover {
+    color: #00b4ff;
+  }
+
+.sociallinks>ion-icon {
+    color: grey;
+  }
